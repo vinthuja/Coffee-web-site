@@ -1,0 +1,23 @@
+.about-main{
+    width: 90%;
+    height: 23%;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: none;
+    
+    margin-top: 150px;
+    color: #fff;
+    padding: 60px;
+}
+
+.about-main p{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.about-main h1{
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    
+}

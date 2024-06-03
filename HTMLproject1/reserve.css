@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url(./bg01.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 7vh;
+
+}
+
+nav h1 {
+    text-align: center;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    color: tomato;
+
+}
+
+.back {
+    width: 50px;
+    color: rgb(220, 7, 7);
+    font-size: 35px;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 230px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 17px auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+form input {
+    padding: 10px;
+    margin: 5px 0 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#reservationResult {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #ffffff;
+}

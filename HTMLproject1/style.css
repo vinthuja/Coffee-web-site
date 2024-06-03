@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+}
+
+.main-nav div h1{
+    width: 500px;
+    text-align: center;
+    animation: changecolor 5s infinite;
+    font-style: italic;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+@keyframes changecolor {
+    from{
+        color: aqua;
+    }
+    to{
+        color: tomato;
+    }
+}
+
+.links{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.links a:hover{
+    color: tomato;
+}
+
+footer{
+    height: 6vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+main{
+    width: 90%;
+    height: 56%;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 3px 3px 4px aqua;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    color: #fff;
+}
+
+main h1{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 55px;
+}
+
+main p{
+    font-size: 38px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+main div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+main a{
+    text-decoration: none;
+}
+
+main .btn1{
+    background-color: aqua;
+    width: 130px;
+    font-size: 20px;
+    padding: 14px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+}
+
+main .btn1:hover,.btn2:hover{
+    background-color: brown;
+}
+
+main .btn2{
+    background-color: tomato;
+    width: 180px;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 6px;
+}
